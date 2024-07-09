@@ -127,10 +127,15 @@ COLOR2: #202c45
   color: #fff;
 }
 /* Modern Header */
-.modern-header.modern-header-theme-colored .header-nav .header-nav-wrapper:not(.scroll-to-fixed-fixed) nav {
+.modern-header.modern-header-theme-colored
+  .header-nav
+  .header-nav-wrapper:not(.scroll-to-fixed-fixed)
+  nav {
   background: #202c45;
 }
-.modern-header.modern-header-theme-colored .header-nav .header-nav-wrapper.scroll-to-fixed-fixed {
+.modern-header.modern-header-theme-colored
+  .header-nav
+  .header-nav-wrapper.scroll-to-fixed-fixed {
   background: #202c45;
 }
 /* -------- Text Theme Color ---------- */
@@ -279,9 +284,7 @@ blockquote.gray.bg-theme-colored footer {
   background-color: rgba(32, 44, 69, 0.5) !important;
 }
 /* -------- layer overlay Color ---------- */
-.layer-overlay {
-  /* .overlay-theme-colored */
-}
+
 .layer-overlay.overlay-theme-colored::before {
   background-color: rgba(32, 44, 69, 0.8);
 }
@@ -825,23 +828,39 @@ fieldset[disabled] .btn-theme-colored.focus {
 }
 .accordion-theme-colored .panel-default > .panel-heading .panel-title > a,
 .accordion-theme-colored .panel-default > .panel-heading .panel-title > a:hover,
-.accordion-theme-colored .panel-default > .panel-heading .panel-title > a:focus {
+.accordion-theme-colored
+  .panel-default
+  > .panel-heading
+  .panel-title
+  > a:focus {
   color: #fff;
 }
-.panel-group.accordion-classic-theme-colored .panel-heading .panel-title a.active:before {
+.panel-group.accordion-classic-theme-colored
+  .panel-heading
+  .panel-title
+  a.active:before {
   background: #202c45;
 }
 .panel-group.accordion-classic-theme-colored-filled .panel-heading {
   background: #202c45;
 }
-.panel-group.accordion-classic-theme-colored-filled .panel-heading .panel-title a {
+.panel-group.accordion-classic-theme-colored-filled
+  .panel-heading
+  .panel-title
+  a {
   color: #fff;
 }
-.panel-group.accordion-classic-theme-colored-filled .panel-heading .panel-title a:before {
+.panel-group.accordion-classic-theme-colored-filled
+  .panel-heading
+  .panel-title
+  a:before {
   background: #1b253b;
   color: #fff;
 }
-.panel-group.accordion-classic-theme-colored-filled .panel-heading .panel-title a.active:before {
+.panel-group.accordion-classic-theme-colored-filled
+  .panel-heading
+  .panel-title
+  a.active:before {
   background: #0b0f18;
 }
 .panel-group.accordion-classic-theme-colored12 .panel-heading {
@@ -850,32 +869,49 @@ fieldset[disabled] .btn-theme-colored.focus {
 .panel-group.accordion-classic-theme-colored12 .panel-heading .panel-title a {
   color: #fff;
 }
-.panel-group.accordion-classic-theme-colored12 .panel-heading .panel-title a:before {
+.panel-group.accordion-classic-theme-colored12
+  .panel-heading
+  .panel-title
+  a:before {
   background: #182134;
   color: #fff;
 }
-.panel-group.accordion-classic-theme-colored12 .panel-heading .panel-title a.active:before {
-  background: #07BF51;
+.panel-group.accordion-classic-theme-colored12
+  .panel-heading
+  .panel-title
+  a.active:before {
+  background: #07bf51;
 }
-.panel-group.accordion-icon-filled.accordion-icon-left.accordion-icon-filled-theme-colored .panel-heading .panel-title a:before {
+.panel-group.accordion-icon-filled.accordion-icon-left.accordion-icon-filled-theme-colored
+  .panel-heading
+  .panel-title
+  a:before {
   background-color: #202c45;
 }
-.panel-group.accordion-icon-filled.accordion-icon-right.accordion-icon-filled-theme-colored .panel-heading .panel-title a:after {
+.panel-group.accordion-icon-filled.accordion-icon-right.accordion-icon-filled-theme-colored
+  .panel-heading
+  .panel-title
+  a:after {
   background-color: #202c45;
 }
 /* Modern Header */
-.modern-header.modern-header-theme-colored2 .header-nav .header-nav-wrapper:not(.scroll-to-fixed-fixed) nav {
-  background: #07BF51;
+.modern-header.modern-header-theme-colored2
+  .header-nav
+  .header-nav-wrapper:not(.scroll-to-fixed-fixed)
+  nav {
+  background: #07bf51;
 }
-.modern-header.modern-header-theme-colored2 .header-nav .header-nav-wrapper.scroll-to-fixed-fixed {
-  background: #07BF51;
+.modern-header.modern-header-theme-colored2
+  .header-nav
+  .header-nav-wrapper.scroll-to-fixed-fixed {
+  background: #07bf51;
 }
 /* -------- Text Theme Color ---------- */
 .text-theme-colored2 {
-  color: #07BF51 !important;
+  color: #07bf51 !important;
 }
 .text-hover-theme-colored2:hover {
-  color: #07BF51 !important;
+  color: #07bf51 !important;
 }
 ul.list.theme-colored2 li:before,
 ul.list.theme-colored2.angle-double-right li:before,
@@ -883,18 +919,18 @@ ul.list.theme-colored2.angle-right li:before,
 ul.list.theme-colored2.check-circle li:before,
 ul.list.theme-colored2.check li:before,
 .list-icon.theme-colored2 li i {
-  color: #07BF51;
+  color: #07bf51;
 }
 /* -------- border-theme-color ---------- */
 .border-theme-colored2 {
-  border-color: #07BF51 !important;
+  border-color: #07bf51 !important;
 }
 .border-1px-theme-colored2 {
-  border: 1px solid #07BF51;
+  border: 1px solid #07bf51;
 }
 /* border-left-color */
 blockquote.theme-colored2 {
-  border-left: 3px solid #07BF51;
+  border-left: 3px solid #07bf51;
 }
 blockquote.bg-theme-colored2 {
   border-left: 3px solid #058e3c;
@@ -905,32 +941,32 @@ blockquote.bg-theme-colored2 footer {
 }
 blockquote.gray.bg-theme-colored2 {
   background-color: #eeeeee !important;
-  border-left: 3px solid #07BF51;
-  color: #07BF51;
+  border-left: 3px solid #07bf51;
+  color: #07bf51;
 }
 blockquote.gray.bg-theme-colored2 footer {
   color: #777777;
 }
 .price-tag {
-  background: #07BF51;
+  background: #07bf51;
 }
 .services-list li.active a {
-  background-color: #07BF51;
+  background-color: #07bf51;
 }
 .services-list ul li a:hover {
-  background-color: #07BF51;
+  background-color: #07bf51;
   color: #fff;
 }
 .services-list li.active a {
-  border: 1px solid #07BF51;
+  border: 1px solid #07bf51;
 }
 /* -------- bg-theme-color ---------- */
 .bg-theme-colored2 {
-  background-color: #07BF51 !important;
+  background-color: #07bf51 !important;
 }
 .bg-hover-theme-colored2:hover {
-  background: #07BF51 !important;
-  border-color: #07BF51 !important;
+  background: #07bf51 !important;
+  border-color: #07bf51 !important;
   color: #fff !important;
 }
 .bg-hover-theme-colored2:hover h1,
@@ -946,7 +982,7 @@ blockquote.gray.bg-theme-colored2 footer {
 }
 .list-icon.theme-colored2.square li i,
 .list-icon.theme-colored2.rounded li i {
-  background: #07BF51;
+  background: #07bf51;
 }
 /* -------- lighter/darker bg Color ---------- */
 .bg-theme-colored2-lighter2 {
@@ -1029,9 +1065,7 @@ blockquote.gray.bg-theme-colored2 footer {
   background-color: rgba(7, 191, 81, 0.5) !important;
 }
 /* -------- layer overlay Color ---------- */
-.layer-overlay {
-  /* .overlay-theme-colored2 */
-}
+
 .layer-overlay.overlay-theme-colored2::before {
   background-color: rgba(7, 191, 81, 0.8) !important;
 }
@@ -1067,25 +1101,25 @@ blockquote.gray.bg-theme-colored2 footer {
  * -----------------------------------------------
 */
 .btn-default.btn-theme-colored2 {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #fff;
-  border-color: #07BF51;
+  border-color: #07bf51;
 }
 .btn-default.btn-theme-colored2:focus,
 .btn-default.btn-theme-colored2.focus {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #e6e6e6;
   border-color: #02441d;
 }
 .btn-default.btn-theme-colored2:hover {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #e6e6e6;
   border-color: #058438;
 }
 .btn-default.btn-theme-colored2:active,
 .btn-default.btn-theme-colored2.active,
 .open > .dropdown-toggle.btn-default.btn-theme-colored2 {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #e6e6e6;
   border-color: #058438;
 }
@@ -1098,7 +1132,7 @@ blockquote.gray.bg-theme-colored2 footer {
 .btn-default.btn-theme-colored2:active.focus,
 .btn-default.btn-theme-colored2.active.focus,
 .open > .dropdown-toggle.btn-default.btn-theme-colored2.focus {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #d4d4d4;
   border-color: #02441d;
 }
@@ -1117,17 +1151,17 @@ fieldset[disabled] .btn-default.btn-theme-colored2:focus,
 .btn-default.btn-theme-colored2[disabled].focus,
 fieldset[disabled] .btn-default.btn-theme-colored2.focus {
   background-color: #fff;
-  border-color: #07BF51;
+  border-color: #07bf51;
 }
 .btn-default.btn-theme-colored2 .badge {
   color: #fff;
-  background-color: #07BF51;
+  background-color: #07bf51;
 }
 .btn-default.btn-theme-colored2:hover,
 .btn-default.btn-theme-colored2:active,
 .btn-default.btn-theme-colored2:focus {
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
   color: #fff;
 }
 /*
@@ -1135,25 +1169,25 @@ fieldset[disabled] .btn-default.btn-theme-colored2.focus {
  * -----------------------------------------------
 */
 .btn-border.btn-theme-colored2 {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #fff;
-  border-color: #07BF51;
+  border-color: #07bf51;
 }
 .btn-border.btn-theme-colored2:focus,
 .btn-border.btn-theme-colored2.focus {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #e6e6e6;
   border-color: #02441d;
 }
 .btn-border.btn-theme-colored2:hover {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #e6e6e6;
   border-color: #058438;
 }
 .btn-border.btn-theme-colored2:active,
 .btn-border.btn-theme-colored2.active,
 .open > .dropdown-toggle.btn-border.btn-theme-colored2 {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #e6e6e6;
   border-color: #058438;
 }
@@ -1166,7 +1200,7 @@ fieldset[disabled] .btn-default.btn-theme-colored2.focus {
 .btn-border.btn-theme-colored2:active.focus,
 .btn-border.btn-theme-colored2.active.focus,
 .open > .dropdown-toggle.btn-border.btn-theme-colored2.focus {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #d4d4d4;
   border-color: #02441d;
 }
@@ -1185,11 +1219,11 @@ fieldset[disabled] .btn-border.btn-theme-colored2:focus,
 .btn-border.btn-theme-colored2[disabled].focus,
 fieldset[disabled] .btn-border.btn-theme-colored2.focus {
   background-color: #fff;
-  border-color: #07BF51;
+  border-color: #07bf51;
 }
 .btn-border.btn-theme-colored2 .badge {
   color: #fff;
-  background-color: #07BF51;
+  background-color: #07bf51;
 }
 .btn-border.btn-theme-colored2:hover,
 .btn-border.btn-theme-colored2:active,
@@ -1204,8 +1238,8 @@ fieldset[disabled] .btn-border.btn-theme-colored2.focus {
 */
 .btn-dark.btn-theme-colored2 {
   color: #fff;
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
 }
 .btn-dark.btn-theme-colored2:focus,
 .btn-dark.btn-theme-colored2.focus {
@@ -1252,11 +1286,11 @@ fieldset[disabled] .btn-dark.btn-theme-colored2:focus,
 .btn-dark.btn-theme-colored2.disabled.focus,
 .btn-dark.btn-theme-colored2[disabled].focus,
 fieldset[disabled] .btn-dark.btn-theme-colored2.focus {
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
 }
 .btn-dark.btn-theme-colored2 .badge {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #fff;
 }
 /*
@@ -1264,25 +1298,25 @@ fieldset[disabled] .btn-dark.btn-theme-colored2.focus {
  * -----------------------------------------------
 */
 .btn-gray.btn-theme-colored2 {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #09f066;
   border-color: #09f066;
 }
 .btn-gray.btn-theme-colored2:focus,
 .btn-gray.btn-theme-colored2.focus {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #07bf51;
   border-color: #047532;
 }
 .btn-gray.btn-theme-colored2:hover {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #07bf51;
   border-color: #07b54d;
 }
 .btn-gray.btn-theme-colored2:active,
 .btn-gray.btn-theme-colored2.active,
 .open > .dropdown-toggle.btn-gray.btn-theme-colored2 {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #07bf51;
   border-color: #07b54d;
 }
@@ -1295,7 +1329,7 @@ fieldset[disabled] .btn-dark.btn-theme-colored2.focus {
 .btn-gray.btn-theme-colored2:active.focus,
 .btn-gray.btn-theme-colored2.active.focus,
 .open > .dropdown-toggle.btn-gray.btn-theme-colored2.focus {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #069d42;
   border-color: #047532;
 }
@@ -1318,7 +1352,7 @@ fieldset[disabled] .btn-gray.btn-theme-colored2.focus {
 }
 .btn-gray.btn-theme-colored2 .badge {
   color: #09f066;
-  background-color: #07BF51;
+  background-color: #07bf51;
 }
 /*
  * btn-primary: theme-color
@@ -1326,8 +1360,8 @@ fieldset[disabled] .btn-gray.btn-theme-colored2.focus {
 */
 .btn-theme-colored2 {
   color: #fff;
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
 }
 .btn-theme-colored2:focus,
 .btn-theme-colored2.focus {
@@ -1374,16 +1408,16 @@ fieldset[disabled] .btn-theme-colored2:focus,
 .btn-theme-colored2.disabled.focus,
 .btn-theme-colored2[disabled].focus,
 fieldset[disabled] .btn-theme-colored2.focus {
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
 }
 .btn-theme-colored2 .badge {
-  color: #07BF51;
+  color: #07bf51;
   background-color: #fff;
 }
 .btn-hover-theme-colored2:hover {
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
   color: #fff;
 }
 /*
@@ -1391,53 +1425,53 @@ fieldset[disabled] .btn-theme-colored2.focus {
  * -----------------------------------------------
 */
 .icon-theme-colored2 a {
-  color: #07BF51;
+  color: #07bf51;
 }
 .icon-theme-colored2.icon-bordered a {
-  border-color: #07BF51;
+  border-color: #07bf51;
 }
 .icon-theme-colored2.icon-bordered a:hover {
-  background-color: #07BF51;
+  background-color: #07bf51;
   color: #fff;
 }
 .icon-theme-colored2.icon-dark a {
-  background-color: #07BF51;
+  background-color: #07bf51;
   color: #fff;
 }
 .icon-theme-colored2.icon-dark a:hover {
   background-color: #058e3c;
 }
 .icon-theme-colored2.icon-dark.icon-bordered a {
-  border-color: #07BF51;
-  color: #07BF51;
+  border-color: #07bf51;
+  color: #07bf51;
 }
 .icon-theme-colored2.icon-dark.icon-bordered a:hover {
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
   color: #fff;
 }
 .icon-theme-colored2.icon-gray a {
-  color: #07BF51;
+  color: #07bf51;
 }
 .icon-theme-colored2.icon-gray a:hover {
   color: #058e3c;
 }
 .icon-theme-colored2.icon-gray.icon-bordered a {
-  color: #07BF51;
+  color: #07bf51;
 }
 .icon-theme-colored2.icon-gray.icon-bordered a:hover {
   background-color: #eeeeee;
   border-color: #eeeeee;
-  color: #07BF51;
+  color: #07bf51;
 }
 .icon-hover-theme-colored2 a:hover {
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
   color: #fff;
 }
 .styled-icons.icon-hover-theme-colored2 a:hover {
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
   color: #fff;
 }
 /*
@@ -1445,32 +1479,32 @@ fieldset[disabled] .btn-theme-colored2.focus {
  * -----------------------------------------------
 */
 .icon-box.iconbox-theme-colored2 .icon {
-  color: #07BF51;
+  color: #07bf51;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-border-effect::after {
-  box-shadow: 0 0 0 3px #07BF51;
+  box-shadow: 0 0 0 3px #07bf51;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-bordered {
-  border-color: #07BF51;
+  border-color: #07bf51;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-bordered:hover {
-  background-color: #07BF51;
+  background-color: #07bf51;
   color: #fff;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-gray:hover {
-  background-color: #07BF51;
+  background-color: #07bf51;
   color: #fff;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-gray.icon-bordered {
   border-color: #eeeeee;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-gray.icon-bordered:hover {
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
   color: #fff;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-dark {
-  background-color: #07BF51;
+  background-color: #07bf51;
   color: #fff;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-dark:hover {
@@ -1478,81 +1512,113 @@ fieldset[disabled] .btn-theme-colored2.focus {
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-dark.icon-bordered {
   background-color: transparent;
-  border-color: #07BF51;
-  color: #07BF51;
+  border-color: #07bf51;
+  color: #07bf51;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-dark.icon-bordered:hover {
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
   color: #fff;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-white {
   background-color: #fff;
-  color: #07BF51;
+  color: #07bf51;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-white:hover {
-  background-color: #07BF51;
+  background-color: #07bf51;
   color: #fff;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-white.icon-bordered {
   background-color: transparent;
-  border-color: #07BF51;
+  border-color: #07bf51;
   color: #fff;
 }
 .icon-box.iconbox-theme-colored2 .icon.icon-white.icon-bordered:hover {
-  background-color: #07BF51;
-  border-color: #07BF51;
+  background-color: #07bf51;
+  border-color: #07bf51;
   color: #fff;
 }
 .icon-box.iconbox-theme-colored2.iconbox-border {
-  border-color: #07BF51;
+  border-color: #07bf51;
 }
 /*
  *  accordion.less
  * -----------------------------------------------
 */
 .accordion-theme-colored2 .panel-default > .panel-heading {
-  background-color: #07BF51;
+  background-color: #07bf51;
 }
 .accordion-theme-colored2 .panel-default > .panel-heading .panel-title > a,
-.accordion-theme-colored2 .panel-default > .panel-heading .panel-title > a:hover,
-.accordion-theme-colored2 .panel-default > .panel-heading .panel-title > a:focus {
+.accordion-theme-colored2
+  .panel-default
+  > .panel-heading
+  .panel-title
+  > a:hover,
+.accordion-theme-colored2
+  .panel-default
+  > .panel-heading
+  .panel-title
+  > a:focus {
   color: #fff;
 }
-.panel-group.accordion-classic-theme-colored2 .panel-heading .panel-title a.active:before {
-  background: #07BF51;
+.panel-group.accordion-classic-theme-colored2
+  .panel-heading
+  .panel-title
+  a.active:before {
+  background: #07bf51;
 }
 .panel-group.accordion-classic-theme-colored2-filled .panel-heading {
-  background: #07BF51;
+  background: #07bf51;
 }
-.panel-group.accordion-classic-theme-colored2-filled .panel-heading .panel-title a {
+.panel-group.accordion-classic-theme-colored2-filled
+  .panel-heading
+  .panel-title
+  a {
   color: #fff;
 }
-.panel-group.accordion-classic-theme-colored2-filled .panel-heading .panel-title a:before {
+.panel-group.accordion-classic-theme-colored2-filled
+  .panel-heading
+  .panel-title
+  a:before {
   background: #06b04b;
   color: #fff;
 }
-.panel-group.accordion-classic-theme-colored2-filled .panel-heading .panel-title a.active:before {
+.panel-group.accordion-classic-theme-colored2-filled
+  .panel-heading
+  .panel-title
+  a.active:before {
   background: #057f36;
 }
 .panel-group.accordion-classic-theme-colored21 .panel-heading {
-  background: #07BF51;
+  background: #07bf51;
 }
 .panel-group.accordion-classic-theme-colored21 .panel-heading .panel-title a {
   color: #fff;
 }
-.panel-group.accordion-classic-theme-colored21 .panel-heading .panel-title a:before {
+.panel-group.accordion-classic-theme-colored21
+  .panel-heading
+  .panel-title
+  a:before {
   background: #06a647;
   color: #fff;
 }
-.panel-group.accordion-classic-theme-colored21 .panel-heading .panel-title a.active:before {
+.panel-group.accordion-classic-theme-colored21
+  .panel-heading
+  .panel-title
+  a.active:before {
   background: #202c45;
 }
-.panel-group.accordion-icon-filled.accordion-icon-left.accordion-icon-filled-theme-colored2 .panel-heading .panel-title a:before {
-  background-color: #07BF51;
+.panel-group.accordion-icon-filled.accordion-icon-left.accordion-icon-filled-theme-colored2
+  .panel-heading
+  .panel-title
+  a:before {
+  background-color: #07bf51;
 }
-.panel-group.accordion-icon-filled.accordion-icon-right.accordion-icon-filled-theme-colored2 .panel-heading .panel-title a:after {
-  background-color: #07BF51;
+.panel-group.accordion-icon-filled.accordion-icon-right.accordion-icon-filled-theme-colored2
+  .panel-heading
+  .panel-title
+  a:after {
+  background-color: #07bf51;
 }
 /*
  *  common.less
@@ -1581,7 +1647,7 @@ fieldset[disabled] .btn-theme-colored2.focus {
 .line-bottom-rounded-theme-colored2:after,
 .line-bottom-double-line-centered::before,
 .line-bottom-double-line-centered::after {
-  background: #07BF51;
+  background: #07bf51;
 }
 .diamond-line-centered-theme-colored2::before,
 .diamond-line-left-theme-colored2::before {
@@ -1589,7 +1655,7 @@ fieldset[disabled] .btn-theme-colored2.focus {
 }
 .diamond-line-centered-theme-colored2:after,
 .diamond-line-left-theme-colored2:after {
-  border: 1px solid #07BF51;
+  border: 1px solid #07bf51;
 }
 /*
  *  Gradients BG+BGTransparent Color
@@ -1598,7 +1664,13 @@ fieldset[disabled] .btn-theme-colored2.focus {
 /* Gradient BG Colors */
 .bg-theme-colored-gradient {
   background-color: #101622;
-  background: -webkit-gradient(linear, left top, left bottom, from(#101622), to(#40588b));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#101622),
+    to(#40588b)
+  );
   background: -webkit-linear-gradient(top, #101622, #40588b);
   background: -moz-linear-gradient(top, #101622, #40588b);
   background: -ms-linear-gradient(top, #101622, #40588b);
@@ -1606,7 +1678,13 @@ fieldset[disabled] .btn-theme-colored2.focus {
 }
 .bg-theme-colored-gradient-horizontal {
   background: #101622;
-  background: -webkit-gradient(linear, left top, right top, from(#101622), to(#40588b));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#101622),
+    to(#40588b)
+  );
   background: -webkit-linear-gradient(left, #101622, #40588b);
   background: -moz-linear-gradient(left, #101622, #40588b);
   background: -ms-linear-gradient(left, #101622, #40588b);
@@ -1614,7 +1692,13 @@ fieldset[disabled] .btn-theme-colored2.focus {
 }
 .bg-theme-colored2-gradient {
   background-color: #058e3c;
-  background: -webkit-gradient(linear, left top, left bottom, from(#058e3c), to(#34f883));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#058e3c),
+    to(#34f883)
+  );
   background: -webkit-linear-gradient(top, #058e3c, #34f883);
   background: -moz-linear-gradient(top, #058e3c, #34f883);
   background: -ms-linear-gradient(top, #058e3c, #34f883);
@@ -1622,7 +1706,13 @@ fieldset[disabled] .btn-theme-colored2.focus {
 }
 .bg-theme-colored2-gradient-horizontal {
   background: #058e3c;
-  background: -webkit-gradient(linear, left top, right top, from(#058e3c), to(#34f883));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#058e3c),
+    to(#34f883)
+  );
   background: -webkit-linear-gradient(left, #058e3c, #34f883);
   background: -moz-linear-gradient(left, #058e3c, #34f883);
   background: -ms-linear-gradient(left, #058e3c, #34f883);
@@ -1630,357 +1720,1261 @@ fieldset[disabled] .btn-theme-colored2.focus {
 }
 .bg-theme-colored12-gradient {
   background-color: #202c45;
-  background: -webkit-gradient(linear, left top, left bottom, from(#202c45), to(#07BF51));
-  background: -webkit-linear-gradient(top, #202c45, #07BF51);
-  background: -moz-linear-gradient(top, #202c45, #07BF51);
-  background: -ms-linear-gradient(top, #202c45, #07BF51);
-  background: -o-linear-gradient(top, #202c45, #07BF51);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#202c45),
+    to(#07bf51)
+  );
+  background: -webkit-linear-gradient(top, #202c45, #07bf51);
+  background: -moz-linear-gradient(top, #202c45, #07bf51);
+  background: -ms-linear-gradient(top, #202c45, #07bf51);
+  background: -o-linear-gradient(top, #202c45, #07bf51);
 }
 .bg-theme-colored12-gradient-horizontal {
   background: #202c45;
-  background: -webkit-gradient(linear, left top, right top, from(#202c45), to(#07BF51));
-  background: -webkit-linear-gradient(left, #202c45, #07BF51);
-  background: -moz-linear-gradient(left, #202c45, #07BF51);
-  background: -ms-linear-gradient(left, #202c45, #07BF51);
-  background: -o-linear-gradient(left, #202c45, #07BF51);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#202c45),
+    to(#07bf51)
+  );
+  background: -webkit-linear-gradient(left, #202c45, #07bf51);
+  background: -moz-linear-gradient(left, #202c45, #07bf51);
+  background: -ms-linear-gradient(left, #202c45, #07bf51);
+  background: -o-linear-gradient(left, #202c45, #07bf51);
 }
 .bg-theme-colored21-gradient {
-  background-color: #07BF51;
-  background: -webkit-gradient(linear, left top, left bottom, from(#07BF51), to(#202c45));
-  background: -webkit-linear-gradient(top, #07BF51, #202c45);
-  background: -moz-linear-gradient(top, #07BF51, #202c45);
-  background: -ms-linear-gradient(top, #07BF51, #202c45);
-  background: -o-linear-gradient(top, #07BF51, #202c45);
+  background-color: #07bf51;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#07bf51),
+    to(#202c45)
+  );
+  background: -webkit-linear-gradient(top, #07bf51, #202c45);
+  background: -moz-linear-gradient(top, #07bf51, #202c45);
+  background: -ms-linear-gradient(top, #07bf51, #202c45);
+  background: -o-linear-gradient(top, #07bf51, #202c45);
 }
 .bg-theme-colored21-gradient-horizontal {
-  background: #07BF51;
-  background: -webkit-gradient(linear, left top, right top, from(#07BF51), to(#202c45));
-  background: -webkit-linear-gradient(left, #07BF51, #202c45);
-  background: -moz-linear-gradient(left, #07BF51, #202c45);
-  background: -ms-linear-gradient(left, #07BF51, #202c45);
-  background: -o-linear-gradient(left, #07BF51, #202c45);
+  background: #07bf51;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#07bf51),
+    to(#202c45)
+  );
+  background: -webkit-linear-gradient(left, #07bf51, #202c45);
+  background: -moz-linear-gradient(left, #07bf51, #202c45);
+  background: -ms-linear-gradient(left, #07bf51, #202c45);
+  background: -o-linear-gradient(left, #07bf51, #202c45);
 }
 /* -------- layer overlay gradient Color1 ---------- */
 .layer-overlay.overlay-theme-colored-gradient::before {
   background: rgba(32, 44, 69, 0.9);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.9)), to(rgba(64, 88, 139, 0.9)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(64, 88, 139, 0.9));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(64, 88, 139, 0.9));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(64, 88, 139, 0.9));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(64, 88, 139, 0.9));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.9)),
+    to(rgba(64, 88, 139, 0.9))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(64, 88, 139, 0.9)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(64, 88, 139, 0.9)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(64, 88, 139, 0.9)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(64, 88, 139, 0.9)
+  );
 }
 .layer-overlay.overlay-theme-colored-gradient-1::before {
   background: rgba(32, 44, 69, 0.1);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.1)), to(rgba(64, 88, 139, 0.1)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.1), rgba(64, 88, 139, 0.1));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.1), rgba(64, 88, 139, 0.1));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.1), rgba(64, 88, 139, 0.1));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.1), rgba(64, 88, 139, 0.1));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.1)),
+    to(rgba(64, 88, 139, 0.1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.1),
+    rgba(64, 88, 139, 0.1)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.1),
+    rgba(64, 88, 139, 0.1)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.1),
+    rgba(64, 88, 139, 0.1)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.1),
+    rgba(64, 88, 139, 0.1)
+  );
 }
 .layer-overlay.overlay-theme-colored-gradient-2::before {
   background: rgba(32, 44, 69, 0.2);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.2)), to(rgba(64, 88, 139, 0.2)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.2), rgba(64, 88, 139, 0.2));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.2), rgba(64, 88, 139, 0.2));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.2), rgba(64, 88, 139, 0.2));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.2), rgba(64, 88, 139, 0.2));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.2)),
+    to(rgba(64, 88, 139, 0.2))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.2),
+    rgba(64, 88, 139, 0.2)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.2),
+    rgba(64, 88, 139, 0.2)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.2),
+    rgba(64, 88, 139, 0.2)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.2),
+    rgba(64, 88, 139, 0.2)
+  );
 }
 .layer-overlay.overlay-theme-colored-gradient-3::before {
   background: rgba(32, 44, 69, 0.3);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.3)), to(rgba(64, 88, 139, 0.3)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.3), rgba(64, 88, 139, 0.3));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.3), rgba(64, 88, 139, 0.3));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.3), rgba(64, 88, 139, 0.3));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.3), rgba(64, 88, 139, 0.3));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.3)),
+    to(rgba(64, 88, 139, 0.3))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.3),
+    rgba(64, 88, 139, 0.3)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.3),
+    rgba(64, 88, 139, 0.3)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.3),
+    rgba(64, 88, 139, 0.3)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.3),
+    rgba(64, 88, 139, 0.3)
+  );
 }
 .layer-overlay.overlay-theme-colored-gradient-4::before {
   background: rgba(32, 44, 69, 0.4);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.4)), to(rgba(64, 88, 139, 0.4)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.4), rgba(64, 88, 139, 0.4));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.4), rgba(64, 88, 139, 0.4));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.4), rgba(64, 88, 139, 0.4));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.4), rgba(64, 88, 139, 0.4));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.4)),
+    to(rgba(64, 88, 139, 0.4))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.4),
+    rgba(64, 88, 139, 0.4)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.4),
+    rgba(64, 88, 139, 0.4)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.4),
+    rgba(64, 88, 139, 0.4)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.4),
+    rgba(64, 88, 139, 0.4)
+  );
 }
 .layer-overlay.overlay-theme-colored-gradient-5::before {
   background: rgba(32, 44, 69, 0.5);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.5)), to(rgba(64, 88, 139, 0.5)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.5), rgba(64, 88, 139, 0.5));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.5), rgba(64, 88, 139, 0.5));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.5), rgba(64, 88, 139, 0.5));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.5), rgba(64, 88, 139, 0.5));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.5)),
+    to(rgba(64, 88, 139, 0.5))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.5),
+    rgba(64, 88, 139, 0.5)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.5),
+    rgba(64, 88, 139, 0.5)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.5),
+    rgba(64, 88, 139, 0.5)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.5),
+    rgba(64, 88, 139, 0.5)
+  );
 }
 .layer-overlay.overlay-theme-colored-gradient-6::before {
   background: rgba(32, 44, 69, 0.6);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.6)), to(rgba(64, 88, 139, 0.6)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.6), rgba(64, 88, 139, 0.6));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.6), rgba(64, 88, 139, 0.6));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.6), rgba(64, 88, 139, 0.6));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.6), rgba(64, 88, 139, 0.6));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.6)),
+    to(rgba(64, 88, 139, 0.6))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.6),
+    rgba(64, 88, 139, 0.6)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.6),
+    rgba(64, 88, 139, 0.6)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.6),
+    rgba(64, 88, 139, 0.6)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.6),
+    rgba(64, 88, 139, 0.6)
+  );
 }
 .layer-overlay.overlay-theme-colored-gradient-7::before {
   background: rgba(32, 44, 69, 0.7);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.7)), to(rgba(64, 88, 139, 0.7)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.7), rgba(64, 88, 139, 0.7));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.7), rgba(64, 88, 139, 0.7));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.7), rgba(64, 88, 139, 0.7));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.7), rgba(64, 88, 139, 0.7));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.7)),
+    to(rgba(64, 88, 139, 0.7))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.7),
+    rgba(64, 88, 139, 0.7)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.7),
+    rgba(64, 88, 139, 0.7)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.7),
+    rgba(64, 88, 139, 0.7)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.7),
+    rgba(64, 88, 139, 0.7)
+  );
 }
 .layer-overlay.overlay-theme-colored-gradient-8::before {
   background: rgba(32, 44, 69, 0.8);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.8)), to(rgba(64, 88, 139, 0.8)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.8), rgba(64, 88, 139, 0.8));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.8), rgba(64, 88, 139, 0.8));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.8), rgba(64, 88, 139, 0.8));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.8), rgba(64, 88, 139, 0.8));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.8)),
+    to(rgba(64, 88, 139, 0.8))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.8),
+    rgba(64, 88, 139, 0.8)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.8),
+    rgba(64, 88, 139, 0.8)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.8),
+    rgba(64, 88, 139, 0.8)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.8),
+    rgba(64, 88, 139, 0.8)
+  );
 }
 .layer-overlay.overlay-theme-colored-gradient-9::before {
   background: rgba(32, 44, 69, 0.9);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.9)), to(rgba(64, 88, 139, 0.9)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(64, 88, 139, 0.9));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(64, 88, 139, 0.9));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(64, 88, 139, 0.9));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(64, 88, 139, 0.9));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.9)),
+    to(rgba(64, 88, 139, 0.9))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(64, 88, 139, 0.9)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(64, 88, 139, 0.9)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(64, 88, 139, 0.9)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(64, 88, 139, 0.9)
+  );
 }
 /* -------- layer overlay gradient Color2 ---------- */
 .layer-overlay.overlay-theme-colored2-gradient::before {
   background: rgba(7, 191, 81, 0.9);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.9)), to(rgba(52, 248, 131, 0.9)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(52, 248, 131, 0.9));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(52, 248, 131, 0.9));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(52, 248, 131, 0.9));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(52, 248, 131, 0.9));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.9)),
+    to(rgba(52, 248, 131, 0.9))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(52, 248, 131, 0.9)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(52, 248, 131, 0.9)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(52, 248, 131, 0.9)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(52, 248, 131, 0.9)
+  );
 }
 .layer-overlay.overlay-theme-colored2-gradient-1::before {
   background: rgba(7, 191, 81, 0.1);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.1)), to(rgba(52, 248, 131, 0.1)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.1), rgba(52, 248, 131, 0.1));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.1), rgba(52, 248, 131, 0.1));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.1), rgba(52, 248, 131, 0.1));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.1), rgba(52, 248, 131, 0.1));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.1)),
+    to(rgba(52, 248, 131, 0.1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.1),
+    rgba(52, 248, 131, 0.1)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.1),
+    rgba(52, 248, 131, 0.1)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.1),
+    rgba(52, 248, 131, 0.1)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.1),
+    rgba(52, 248, 131, 0.1)
+  );
 }
 .layer-overlay.overlay-theme-colored2-gradient-2::before {
   background: rgba(7, 191, 81, 0.2);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.2)), to(rgba(52, 248, 131, 0.2)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.2), rgba(52, 248, 131, 0.2));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.2), rgba(52, 248, 131, 0.2));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.2), rgba(52, 248, 131, 0.2));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.2), rgba(52, 248, 131, 0.2));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.2)),
+    to(rgba(52, 248, 131, 0.2))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.2),
+    rgba(52, 248, 131, 0.2)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.2),
+    rgba(52, 248, 131, 0.2)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.2),
+    rgba(52, 248, 131, 0.2)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.2),
+    rgba(52, 248, 131, 0.2)
+  );
 }
 .layer-overlay.overlay-theme-colored2-gradient-3::before {
   background: rgba(7, 191, 81, 0.3);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.3)), to(rgba(52, 248, 131, 0.3)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.3), rgba(52, 248, 131, 0.3));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.3), rgba(52, 248, 131, 0.3));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.3), rgba(52, 248, 131, 0.3));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.3), rgba(52, 248, 131, 0.3));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.3)),
+    to(rgba(52, 248, 131, 0.3))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.3),
+    rgba(52, 248, 131, 0.3)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.3),
+    rgba(52, 248, 131, 0.3)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.3),
+    rgba(52, 248, 131, 0.3)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.3),
+    rgba(52, 248, 131, 0.3)
+  );
 }
 .layer-overlay.overlay-theme-colored2-gradient-4::before {
   background: rgba(7, 191, 81, 0.4);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.4)), to(rgba(52, 248, 131, 0.4)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.4), rgba(52, 248, 131, 0.4));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.4), rgba(52, 248, 131, 0.4));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.4), rgba(52, 248, 131, 0.4));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.4), rgba(52, 248, 131, 0.4));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.4)),
+    to(rgba(52, 248, 131, 0.4))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.4),
+    rgba(52, 248, 131, 0.4)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.4),
+    rgba(52, 248, 131, 0.4)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.4),
+    rgba(52, 248, 131, 0.4)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.4),
+    rgba(52, 248, 131, 0.4)
+  );
 }
 .layer-overlay.overlay-theme-colored2-gradient-5::before {
   background: rgba(7, 191, 81, 0.5);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.5)), to(rgba(52, 248, 131, 0.5)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.5), rgba(52, 248, 131, 0.5));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.5), rgba(52, 248, 131, 0.5));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.5), rgba(52, 248, 131, 0.5));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.5), rgba(52, 248, 131, 0.5));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.5)),
+    to(rgba(52, 248, 131, 0.5))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.5),
+    rgba(52, 248, 131, 0.5)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.5),
+    rgba(52, 248, 131, 0.5)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.5),
+    rgba(52, 248, 131, 0.5)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.5),
+    rgba(52, 248, 131, 0.5)
+  );
 }
 .layer-overlay.overlay-theme-colored2-gradient-6::before {
   background: rgba(7, 191, 81, 0.6);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.6)), to(rgba(52, 248, 131, 0.6)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.6), rgba(52, 248, 131, 0.6));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.6), rgba(52, 248, 131, 0.6));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.6), rgba(52, 248, 131, 0.6));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.6), rgba(52, 248, 131, 0.6));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.6)),
+    to(rgba(52, 248, 131, 0.6))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.6),
+    rgba(52, 248, 131, 0.6)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.6),
+    rgba(52, 248, 131, 0.6)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.6),
+    rgba(52, 248, 131, 0.6)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.6),
+    rgba(52, 248, 131, 0.6)
+  );
 }
 .layer-overlay.overlay-theme-colored2-gradient-7::before {
   background: rgba(7, 191, 81, 0.7);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.7)), to(rgba(52, 248, 131, 0.7)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.7), rgba(52, 248, 131, 0.7));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.7), rgba(52, 248, 131, 0.7));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.7), rgba(52, 248, 131, 0.7));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.7), rgba(52, 248, 131, 0.7));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.7)),
+    to(rgba(52, 248, 131, 0.7))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.7),
+    rgba(52, 248, 131, 0.7)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.7),
+    rgba(52, 248, 131, 0.7)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.7),
+    rgba(52, 248, 131, 0.7)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.7),
+    rgba(52, 248, 131, 0.7)
+  );
 }
 .layer-overlay.overlay-theme-colored2-gradient-8::before {
   background: rgba(7, 191, 81, 0.8);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.8)), to(rgba(52, 248, 131, 0.8)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.8), rgba(52, 248, 131, 0.8));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.8), rgba(52, 248, 131, 0.8));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.8), rgba(52, 248, 131, 0.8));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.8), rgba(52, 248, 131, 0.8));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.8)),
+    to(rgba(52, 248, 131, 0.8))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.8),
+    rgba(52, 248, 131, 0.8)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.8),
+    rgba(52, 248, 131, 0.8)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.8),
+    rgba(52, 248, 131, 0.8)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.8),
+    rgba(52, 248, 131, 0.8)
+  );
 }
 .layer-overlay.overlay-theme-colored2-gradient-9::before {
   background: rgba(7, 191, 81, 0.9);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.9)), to(rgba(52, 248, 131, 0.9)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(52, 248, 131, 0.9));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(52, 248, 131, 0.9));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(52, 248, 131, 0.9));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(52, 248, 131, 0.9));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.9)),
+    to(rgba(52, 248, 131, 0.9))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(52, 248, 131, 0.9)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(52, 248, 131, 0.9)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(52, 248, 131, 0.9)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(52, 248, 131, 0.9)
+  );
 }
 /* -------- layer overlay gradient Color Combined 12 ---------- */
 .layer-overlay.overlay-theme-colored12-gradient::before {
   background: rgba(32, 44, 69, 0.9);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.9)), to(rgba(7, 191, 81, 0.9)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(7, 191, 81, 0.9));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(7, 191, 81, 0.9));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(7, 191, 81, 0.9));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(7, 191, 81, 0.9));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.9)),
+    to(rgba(7, 191, 81, 0.9))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(7, 191, 81, 0.9)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(7, 191, 81, 0.9)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(7, 191, 81, 0.9)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(7, 191, 81, 0.9)
+  );
 }
 .layer-overlay.overlay-theme-colored12-gradient-1::before {
   background: rgba(32, 44, 69, 0.1);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.1)), to(rgba(7, 191, 81, 0.1)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.1), rgba(7, 191, 81, 0.1));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.1), rgba(7, 191, 81, 0.1));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.1), rgba(7, 191, 81, 0.1));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.1), rgba(7, 191, 81, 0.1));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.1)),
+    to(rgba(7, 191, 81, 0.1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.1),
+    rgba(7, 191, 81, 0.1)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.1),
+    rgba(7, 191, 81, 0.1)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.1),
+    rgba(7, 191, 81, 0.1)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.1),
+    rgba(7, 191, 81, 0.1)
+  );
 }
 .layer-overlay.overlay-theme-colored12-gradient-2::before {
   background: rgba(32, 44, 69, 0.2);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.2)), to(rgba(7, 191, 81, 0.2)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.2), rgba(7, 191, 81, 0.2));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.2), rgba(7, 191, 81, 0.2));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.2), rgba(7, 191, 81, 0.2));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.2), rgba(7, 191, 81, 0.2));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.2)),
+    to(rgba(7, 191, 81, 0.2))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.2),
+    rgba(7, 191, 81, 0.2)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.2),
+    rgba(7, 191, 81, 0.2)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.2),
+    rgba(7, 191, 81, 0.2)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.2),
+    rgba(7, 191, 81, 0.2)
+  );
 }
 .layer-overlay.overlay-theme-colored12-gradient-3::before {
   background: rgba(32, 44, 69, 0.3);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.3)), to(rgba(7, 191, 81, 0.3)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.3), rgba(7, 191, 81, 0.3));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.3), rgba(7, 191, 81, 0.3));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.3), rgba(7, 191, 81, 0.3));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.3), rgba(7, 191, 81, 0.3));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.3)),
+    to(rgba(7, 191, 81, 0.3))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.3),
+    rgba(7, 191, 81, 0.3)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.3),
+    rgba(7, 191, 81, 0.3)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.3),
+    rgba(7, 191, 81, 0.3)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.3),
+    rgba(7, 191, 81, 0.3)
+  );
 }
 .layer-overlay.overlay-theme-colored12-gradient-4::before {
   background: rgba(32, 44, 69, 0.4);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.4)), to(rgba(7, 191, 81, 0.4)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.4), rgba(7, 191, 81, 0.4));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.4), rgba(7, 191, 81, 0.4));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.4), rgba(7, 191, 81, 0.4));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.4), rgba(7, 191, 81, 0.4));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.4)),
+    to(rgba(7, 191, 81, 0.4))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.4),
+    rgba(7, 191, 81, 0.4)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.4),
+    rgba(7, 191, 81, 0.4)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.4),
+    rgba(7, 191, 81, 0.4)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.4),
+    rgba(7, 191, 81, 0.4)
+  );
 }
 .layer-overlay.overlay-theme-colored12-gradient-5::before {
   background: rgba(32, 44, 69, 0.5);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.5)), to(rgba(7, 191, 81, 0.5)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.5), rgba(7, 191, 81, 0.5));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.5), rgba(7, 191, 81, 0.5));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.5), rgba(7, 191, 81, 0.5));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.5), rgba(7, 191, 81, 0.5));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.5)),
+    to(rgba(7, 191, 81, 0.5))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.5),
+    rgba(7, 191, 81, 0.5)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.5),
+    rgba(7, 191, 81, 0.5)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.5),
+    rgba(7, 191, 81, 0.5)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.5),
+    rgba(7, 191, 81, 0.5)
+  );
 }
 .layer-overlay.overlay-theme-colored12-gradient-6::before {
   background: rgba(32, 44, 69, 0.6);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.6)), to(rgba(7, 191, 81, 0.6)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.6), rgba(7, 191, 81, 0.6));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.6), rgba(7, 191, 81, 0.6));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.6), rgba(7, 191, 81, 0.6));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.6), rgba(7, 191, 81, 0.6));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.6)),
+    to(rgba(7, 191, 81, 0.6))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.6),
+    rgba(7, 191, 81, 0.6)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.6),
+    rgba(7, 191, 81, 0.6)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.6),
+    rgba(7, 191, 81, 0.6)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.6),
+    rgba(7, 191, 81, 0.6)
+  );
 }
 .layer-overlay.overlay-theme-colored12-gradient-7::before {
   background: rgba(32, 44, 69, 0.7);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.7)), to(rgba(7, 191, 81, 0.7)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.7), rgba(7, 191, 81, 0.7));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.7), rgba(7, 191, 81, 0.7));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.7), rgba(7, 191, 81, 0.7));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.7), rgba(7, 191, 81, 0.7));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.7)),
+    to(rgba(7, 191, 81, 0.7))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.7),
+    rgba(7, 191, 81, 0.7)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.7),
+    rgba(7, 191, 81, 0.7)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.7),
+    rgba(7, 191, 81, 0.7)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.7),
+    rgba(7, 191, 81, 0.7)
+  );
 }
 .layer-overlay.overlay-theme-colored12-gradient-8::before {
   background: rgba(32, 44, 69, 0.8);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.8)), to(rgba(7, 191, 81, 0.8)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.8), rgba(7, 191, 81, 0.8));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.8), rgba(7, 191, 81, 0.8));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.8), rgba(7, 191, 81, 0.8));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.8), rgba(7, 191, 81, 0.8));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.8)),
+    to(rgba(7, 191, 81, 0.8))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.8),
+    rgba(7, 191, 81, 0.8)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.8),
+    rgba(7, 191, 81, 0.8)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.8),
+    rgba(7, 191, 81, 0.8)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.8),
+    rgba(7, 191, 81, 0.8)
+  );
 }
 .layer-overlay.overlay-theme-colored12-gradient-9::before {
   background: rgba(32, 44, 69, 0.9);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(32, 44, 69, 0.9)), to(rgba(7, 191, 81, 0.9)));
-  background: -webkit-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(7, 191, 81, 0.9));
-  background: -moz-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(7, 191, 81, 0.9));
-  background: -ms-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(7, 191, 81, 0.9));
-  background: -o-linear-gradient(left, rgba(32, 44, 69, 0.9), rgba(7, 191, 81, 0.9));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(32, 44, 69, 0.9)),
+    to(rgba(7, 191, 81, 0.9))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(7, 191, 81, 0.9)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(7, 191, 81, 0.9)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(7, 191, 81, 0.9)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 44, 69, 0.9),
+    rgba(7, 191, 81, 0.9)
+  );
 }
 /* -------- layer overlay gradient Color Combined 21 ---------- */
 .layer-overlay.overlay-theme-colored21-gradient::before {
   background: rgba(7, 191, 81, 0.9);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.9)), to(rgba(32, 44, 69, 0.9)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(32, 44, 69, 0.9));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(32, 44, 69, 0.9));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(32, 44, 69, 0.9));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(32, 44, 69, 0.9));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.9)),
+    to(rgba(32, 44, 69, 0.9))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(32, 44, 69, 0.9)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(32, 44, 69, 0.9)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(32, 44, 69, 0.9)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(32, 44, 69, 0.9)
+  );
 }
 .layer-overlay.overlay-theme-colored21-gradient-1::before {
   background: rgba(7, 191, 81, 0.1);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.1)), to(rgba(32, 44, 69, 0.1)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.1), rgba(32, 44, 69, 0.1));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.1), rgba(32, 44, 69, 0.1));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.1), rgba(32, 44, 69, 0.1));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.1), rgba(32, 44, 69, 0.1));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.1)),
+    to(rgba(32, 44, 69, 0.1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.1),
+    rgba(32, 44, 69, 0.1)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.1),
+    rgba(32, 44, 69, 0.1)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.1),
+    rgba(32, 44, 69, 0.1)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.1),
+    rgba(32, 44, 69, 0.1)
+  );
 }
 .layer-overlay.overlay-theme-colored21-gradient-2::before {
   background: rgba(7, 191, 81, 0.2);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.2)), to(rgba(32, 44, 69, 0.2)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.2), rgba(32, 44, 69, 0.2));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.2), rgba(32, 44, 69, 0.2));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.2), rgba(32, 44, 69, 0.2));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.2), rgba(32, 44, 69, 0.2));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.2)),
+    to(rgba(32, 44, 69, 0.2))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.2),
+    rgba(32, 44, 69, 0.2)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.2),
+    rgba(32, 44, 69, 0.2)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.2),
+    rgba(32, 44, 69, 0.2)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.2),
+    rgba(32, 44, 69, 0.2)
+  );
 }
 .layer-overlay.overlay-theme-colored21-gradient-3::before {
   background: rgba(7, 191, 81, 0.3);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.3)), to(rgba(32, 44, 69, 0.3)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.3), rgba(32, 44, 69, 0.3));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.3), rgba(32, 44, 69, 0.3));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.3), rgba(32, 44, 69, 0.3));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.3), rgba(32, 44, 69, 0.3));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.3)),
+    to(rgba(32, 44, 69, 0.3))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.3),
+    rgba(32, 44, 69, 0.3)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.3),
+    rgba(32, 44, 69, 0.3)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.3),
+    rgba(32, 44, 69, 0.3)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.3),
+    rgba(32, 44, 69, 0.3)
+  );
 }
 .layer-overlay.overlay-theme-colored21-gradient-4::before {
   background: rgba(7, 191, 81, 0.4);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.4)), to(rgba(32, 44, 69, 0.4)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.4), rgba(32, 44, 69, 0.4));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.4), rgba(32, 44, 69, 0.4));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.4), rgba(32, 44, 69, 0.4));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.4), rgba(32, 44, 69, 0.4));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.4)),
+    to(rgba(32, 44, 69, 0.4))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.4),
+    rgba(32, 44, 69, 0.4)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.4),
+    rgba(32, 44, 69, 0.4)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.4),
+    rgba(32, 44, 69, 0.4)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.4),
+    rgba(32, 44, 69, 0.4)
+  );
 }
 .layer-overlay.overlay-theme-colored21-gradient-5::before {
   background: rgba(7, 191, 81, 0.5);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.5)), to(rgba(32, 44, 69, 0.5)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.5), rgba(32, 44, 69, 0.5));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.5), rgba(32, 44, 69, 0.5));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.5), rgba(32, 44, 69, 0.5));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.5), rgba(32, 44, 69, 0.5));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.5)),
+    to(rgba(32, 44, 69, 0.5))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.5),
+    rgba(32, 44, 69, 0.5)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.5),
+    rgba(32, 44, 69, 0.5)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.5),
+    rgba(32, 44, 69, 0.5)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.5),
+    rgba(32, 44, 69, 0.5)
+  );
 }
 .layer-overlay.overlay-theme-colored21-gradient-6::before {
   background: rgba(7, 191, 81, 0.6);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.6)), to(rgba(32, 44, 69, 0.6)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.6), rgba(32, 44, 69, 0.6));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.6), rgba(32, 44, 69, 0.6));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.6), rgba(32, 44, 69, 0.6));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.6), rgba(32, 44, 69, 0.6));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.6)),
+    to(rgba(32, 44, 69, 0.6))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.6),
+    rgba(32, 44, 69, 0.6)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.6),
+    rgba(32, 44, 69, 0.6)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.6),
+    rgba(32, 44, 69, 0.6)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.6),
+    rgba(32, 44, 69, 0.6)
+  );
 }
 .layer-overlay.overlay-theme-colored21-gradient-7::before {
   background: rgba(7, 191, 81, 0.7);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.7)), to(rgba(32, 44, 69, 0.7)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.7), rgba(32, 44, 69, 0.7));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.7), rgba(32, 44, 69, 0.7));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.7), rgba(32, 44, 69, 0.7));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.7), rgba(32, 44, 69, 0.7));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.7)),
+    to(rgba(32, 44, 69, 0.7))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.7),
+    rgba(32, 44, 69, 0.7)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.7),
+    rgba(32, 44, 69, 0.7)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.7),
+    rgba(32, 44, 69, 0.7)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.7),
+    rgba(32, 44, 69, 0.7)
+  );
 }
 .layer-overlay.overlay-theme-colored21-gradient-8::before {
   background: rgba(7, 191, 81, 0.8);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.8)), to(rgba(32, 44, 69, 0.8)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.8), rgba(32, 44, 69, 0.8));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.8), rgba(32, 44, 69, 0.8));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.8), rgba(32, 44, 69, 0.8));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.8), rgba(32, 44, 69, 0.8));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.8)),
+    to(rgba(32, 44, 69, 0.8))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.8),
+    rgba(32, 44, 69, 0.8)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.8),
+    rgba(32, 44, 69, 0.8)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.8),
+    rgba(32, 44, 69, 0.8)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.8),
+    rgba(32, 44, 69, 0.8)
+  );
 }
 .layer-overlay.overlay-theme-colored21-gradient-9::before {
   background: rgba(7, 191, 81, 0.9);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(7, 191, 81, 0.9)), to(rgba(32, 44, 69, 0.9)));
-  background: -webkit-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(32, 44, 69, 0.9));
-  background: -moz-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(32, 44, 69, 0.9));
-  background: -ms-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(32, 44, 69, 0.9));
-  background: -o-linear-gradient(left, rgba(7, 191, 81, 0.9), rgba(32, 44, 69, 0.9));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(7, 191, 81, 0.9)),
+    to(rgba(32, 44, 69, 0.9))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(32, 44, 69, 0.9)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(32, 44, 69, 0.9)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(32, 44, 69, 0.9)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(7, 191, 81, 0.9),
+    rgba(32, 44, 69, 0.9)
+  );
 }

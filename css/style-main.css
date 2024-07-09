@@ -1027,9 +1027,7 @@ section > .container-fluid {
   padding: 0;
 }
 /* Transparent Header */
-.header {
-  /* -------- Header floating ---------- */
-}
+
 .header.header-floating {
   position: absolute;
   left: 0;
@@ -2292,7 +2290,9 @@ form .error {
 }
 /* -------- Side Panel ---------- */
 #side-panel {
-  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; /* Safari and older versions of Chrome */
+  -moz-backface-visibility: hidden; /* Firefox */
+  backface-visibility: hidden; /* Standard property */
   background-color: #f3f3f3;
   height: 100%;
   overflow: hidden;
@@ -2565,8 +2565,9 @@ form .error {
   margin: 0 auto;
   right: 0;
   text-align: center;
-  top: 30%;
-  vertical-align: middle;
+  position: absolute; /* Position relative to the parent */
+  top: 50%; /* Move to the middle vertically */
+  transform: translateY(-50%); /* Adjust vertically to center */
   width: 80%;
 }
 .box-hover-effect .effect-wrapper .text-holder-top {
@@ -2575,8 +2576,8 @@ form .error {
   margin: 0 auto;
   right: 0;
   text-align: center;
-  top: -40px;
-  vertical-align: middle;
+  position: relative; /* Maintain document flow */
+  top: -40px; /* Adjust vertically */
   width: 80%;
 }
 .box-hover-effect .effect-wrapper .text-holder-bottom {
@@ -2585,8 +2586,8 @@ form .error {
   margin: 0 auto;
   right: 0;
   text-align: center;
-  bottom: -40px;
-  vertical-align: middle;
+  position: relative; /* Maintain document flow */
+  bottom: -40px; /* Adjust vertically */
   width: 80%;
 }
 .box-hover-effect .effect-wrapper .text-holder-top-left {
@@ -2704,9 +2705,7 @@ form .error {
   transform: scale(1);
 }
 /* Individual effect = play button */
-.box-hover-effect.play-button {
-  /* Text Holder */
-}
+
 .box-hover-effect.play-button .thumb {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -3169,21 +3168,7 @@ form .error {
   }
 }
 /* -------- Portfolio Isotop Gallery ---------- */
-.gallery-isotope {
-  /*gutter*/
-  /* item sizer */
-  /* by default 4 grids */
-  /*portfolio 2 grids*/
-  /*portfolio 2 grids*/
-  /*portfolio 3 grids*/
-  /*portfolio 4 grids*/
-  /*portfolio 5 grids*/
-  /*portfolio 6 grids*/
-  /*portfolio 7 grids*/
-  /*portfolio 8 grids*/
-  /*portfolio 9 grids*/
-  /*portfolio 10 grids*/
-}
+
 .gallery-isotope.gutter .gallery-item {
   padding-right: 5px;
   padding-bottom: 5px;
@@ -3504,10 +3489,7 @@ form .error {
   background: rgba(0, 0, 0, 0.3);
 }
 /* -------- Testimonial-Carousel ---------- */
-.testimonial-carousel,
-.testimonial-carousel-style2 {
-  /* fullwidth */
-}
+
 .testimonial-carousel .quote,
 .testimonial-carousel-style2 .quote,
 .testimonial-carousel .thumb,
@@ -3601,9 +3583,7 @@ form .error {
  * owl-carousel.less
  * -----------------------------------------------
 */
-.owl-carousel {
-  /* owl dots */
-}
+
 .owl-carousel .owl-item img {
   display: inline-block;
   width: auto;
@@ -6348,11 +6328,11 @@ blockquote p {
   text-align: center;
 }
 .nav-tabs > li > a i {
-  display: block;
+  display: inline-block; /* Change to inline-block to use vertical-align */
   font-size: 48px;
   margin-right: 0;
   margin-bottom: 10px;
-  vertical-align: middle;
+  vertical-align: middle; /* Vertically center relative to the line height */
 }
 /* -------- Horizontal-Tab-Centered ---------- */
 .horizontal-tab-centered .nav-pills {
@@ -6496,11 +6476,11 @@ blockquote p {
   text-transform: uppercase;
 }
 .services-tab .nav-tabs > li > a i {
-  display: block;
+  display: inline-block; /* Use inline-block to enable vertical-align */
   font-size: 36px;
   margin-right: 0;
   margin-bottom: 10px;
-  vertical-align: middle;
+  vertical-align: middle; /* Vertically center relative to the line height */
 }
 .services-tab .nav-tabs > li.active > a,
 .services-tab .nav-tabs > li.active > a:hover,

@@ -48,8 +48,8 @@ License: http://codecanyon.net/licenses
   float: right;
 } /* Menu items */
 .menuzord-menu > li {
-  display: inline-block;
-  float: left;
+  float: left; /* Float the list items to the left */
+  /* Optionally, you can add other styles such as padding, margin, etc. */
 }
 .menuzord-menu > li > a {
   padding: 26px 16px;
@@ -90,20 +90,19 @@ License: http://codecanyon.net/licenses
   position: relative;
 }
 .menuzord-menu ul.dropdown li a {
-  width: 100%;
-  background: none;
-  padding: 10px 25px 10px 22px;
-  color: #888;
-  text-decoration: none;
-  display: inline-block;
-  float: left;
-  clear: both;
-  position: relative;
-  outline: 0;
-  -o-transition: padding 0.2s linear;
-  -moz-transition: padding 0.2s linear;
-  -webkit-transition: padding 0.2s linear;
-  transition: padding 0.2s linear;
+  width: 100%; /* Full width */
+  background: none; /* No background */
+  padding: 10px 25px 10px 22px; /* Adjust padding as needed */
+  color: #888; /* Text color */
+  text-decoration: none; /* Remove underline */
+  float: left; /* Float the links to the left */
+  clear: both; /* Clear any previous floats */
+  position: relative; /* Positioning context */
+  outline: 0; /* Remove outline */
+  -o-transition: padding 0.2s linear; /* Opera */
+  -moz-transition: padding 0.2s linear; /* Firefox */
+  -webkit-transition: padding 0.2s linear; /* WebKit browsers */
+  transition: padding 0.2s linear; /* Standard */
 } /* Hover state (dropdown items) */
 .menuzord-menu ul.dropdown li:hover > a {
   padding-left: 28px;

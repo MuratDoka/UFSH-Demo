@@ -55,6 +55,7 @@
   -ms-touch-action: pan-Y;
   touch-action: manipulation;
   -moz-backface-visibility: hidden;
+  backface-visibility: hidden; /* Standard property */
 }
 .owl-carousel .owl-stage:after {
   content: ".";
@@ -68,15 +69,20 @@
   position: relative;
   overflow: hidden;
   -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); /* Standard property */
 }
 .owl-carousel .owl-item,
 .owl-carousel .owl-wrapper {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
+  backface-visibility: hidden; /* Standard property */
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); /* Standard property */
 }
 .owl-carousel .owl-item {
   min-height: 1px;
@@ -327,7 +333,7 @@ html[xmlns] .flexslider .slides {
   margin-right: 5px;
 }
 .flex-direction-nav {
-  *height: 0;
+  *height: 0; /* Applies only to IE7 and earlier */
 }
 .flex-direction-nav a {
   text-decoration: none;
@@ -421,8 +427,8 @@ html[xmlns] .flexslider .slides {
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
-  zoom: 1;
-  *display: inline;
+  zoom: 1; /* Applies only to IE7 and earlier */
+  *display: inline; /* Applies only to IE7 and earlier */
 }
 .flex-control-paging li a {
   width: 11px;
@@ -7016,8 +7022,8 @@ div.mc-image {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #666\9;
-  background: rgba(80, 80, 80, 0.75);
+  background: #666\9; /* Using \9 for IE9 and below */
+  background: rgba(80, 80, 80, 0.75); /* Fallback for modern browsers */
   width: 100%;
 }
 .bx-wrapper .bx-caption span {
@@ -9179,8 +9185,8 @@ div.dark_square #pp_full_res .pp_inline {
   z-index: 5;
 }
 .flip-clock-divider {
-  float: left;
-  display: inline-block;
+  float: left; /* Keep float for positioning */
+  /* Remove 'display: inline-block;' */
   position: relative;
   width: 20px;
   height: 100px;
