@@ -425,10 +425,20 @@ var THEMEMASCOT = {};
     /* ---------------------------------------------------------------------- */
     TM_hashForwarding: function () {
       if (window.location.hash) {
-        var hash_offset = $(window.location.hash).offset().top;
-        $("html, body").animate({
-          scrollTop: hash_offset,
-        });
+        var element = $(window.location.hash);
+
+        // Check if the element exists
+        if (element.length) {
+          var hash_offset = element.offset().top;
+
+          // Animate the scroll with a duration for smooth scrolling
+          $("html, body").animate(
+            {
+              scrollTop: hash_offset,
+            },
+            600
+          ); // 600 milliseconds duration
+        }
       }
     },
 
