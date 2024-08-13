@@ -74,110 +74,8 @@ var THEMEMASCOT = {};
     },
   };
 
-  THEMEMASCOT.bmiCalculator = {
-    magic: function (bmi) {
-      var output = "";
-      var info = "";
-      if (bmi) {
-        if (bmi < 15) {
-          info = "very severely underweight";
-        }
-        if (bmi >= 15 && bmi < 16) {
-          info = "severely underweight";
-        }
-        if (bmi >= 16 && bmi < 18.5) {
-          info = "underweight";
-        }
-        if (bmi >= 18.5 && bmi < 25) {
-          info = "normal";
-        }
-        if (bmi >= 25 && bmi < 30) {
-          info = "overweight";
-        }
-        if (bmi >= 30 && bmi < 35) {
-          info = "moderately obese";
-        }
-        if (bmi >= 35 && bmi <= 40) {
-          info = "severely obese";
-        }
-        if (bmi > 40) {
-          info = "very severely obese";
-        }
-        output =
-          "Your BMI is <span>" +
-          bmi +
-          "</span><br />" +
-          "You are <span>" +
-          info +
-          "</span>.";
-      } else {
-        output = "You broke it!";
-      }
-      return output;
-    },
-
-    calculateStandard: function (bmi_form) {
-      var weight_lbs = bmi_form
-        .find('input[name="bmi_standard_weight_lbs"]')
-        .val();
-      var height_ft = bmi_form
-        .find('input[name="bmi_standard_height_ft"]')
-        .val();
-      var height_in = bmi_form
-        .find('input[name="bmi_standard_height_in"]')
-        .val();
-      var age = bmi_form.find('input[name="bmi_standard_age"]').val();
-      var gender = bmi_form.find('radio[name="bmi_standard_gender"]').val();
-
-      var total_height_inc =
-        parseInt(height_ft, 10) * 12 + parseInt(height_in, 10);
-      var bmi =
-        (parseFloat(weight_lbs) / (total_height_inc * total_height_inc)) * 703;
-      var output = THEMEMASCOT.bmiCalculator.magic(bmi);
-
-      bmi_form
-        .find("#bmi_standard_calculator_form_result")
-        .html(output)
-        .fadeIn("slow");
-    },
-
-    calculateMetric: function (bmi_form) {
-      var weight_kg = bmi_form.find('input[name="bmi_metric_weight_kg"]').val();
-      var height_cm = bmi_form.find('input[name="bmi_metric_height_cm"]').val();
-      var age = bmi_form.find('input[name="bmi_standard_age"]').val();
-      var gender = bmi_form.find('radio[name="bmi_standard_gender"]').val();
-
-      var total_weight_kg = parseFloat(weight_kg);
-      var total_height_m = parseFloat(height_cm) * 0.01;
-      var bmi = total_weight_kg / (total_height_m * total_height_m);
-      var output = THEMEMASCOT.bmiCalculator.magic(bmi);
-
-      bmi_form
-        .find("#bmi_metric_calculator_form_result")
-        .html(output)
-        .fadeIn("slow");
-    },
-
-    init: function () {
-      var bmi_Standard_Form = $("#form_bmi_standard_calculator");
-      bmi_Standard_Form.on("submit", function (e) {
-        e.preventDefault();
-        THEMEMASCOT.bmiCalculator.calculateStandard(bmi_Standard_Form);
-        return false;
-      });
-
-      var bmi_Metric_Form = $("#form_bmi_metric_calculator");
-      bmi_Metric_Form.on("submit", function (e) {
-        e.preventDefault();
-        THEMEMASCOT.bmiCalculator.calculateMetric(bmi_Metric_Form);
-        return false;
-      });
-    },
-  };
-
   THEMEMASCOT.initialize = {
     init: function () {
-      THEMEMASCOT.bmiCalculator.init();
       THEMEMASCOT.initialize.TM_toggleNavSearchIcon();
       THEMEMASCOT.initialize.TM_fixedFooter();
       THEMEMASCOT.initialize.TM_datePicker();
@@ -918,14 +816,14 @@ var THEMEMASCOT = {};
       var t = setTimeout(function () {
         THEMEMASCOT.header.TM_fullscreenMenu();
         THEMEMASCOT.header.TM_sidePanelReveal();
-        THEMEMASCOT.header.TM_sidePushPanelContent();
+
         THEMEMASCOT.header.TM_scroolToTopOnClick();
         THEMEMASCOT.header.TM_scrollToFixed();
         THEMEMASCOT.header.TM_sticky();
         THEMEMASCOT.header.TM_topnavAnimate();
         THEMEMASCOT.header.TM_scrolltoTarget();
         THEMEMASCOT.header.TM_navLocalScorll();
-        THEMEMASCOT.header.TM_menuCollapseOnClick();
+
         THEMEMASCOT.header.TM_homeParallaxFadeEffect();
         THEMEMASCOT.header.TM_topsearch_toggle();
       }, 0);
@@ -971,21 +869,6 @@ var THEMEMASCOT = {};
     },
 
     /* ---------------------------------------------------------------------- */
-    /* ------------------------------ Demo Switcher  ------------------------ */
-    /* ---------------------------------------------------------------------- */
-    TM_sidePushPanelContent: function () {
-      if ($body.hasClass("has-side-panel")) {
-        $.ajax({
-          url: "ajax-load/side-push-panel-content.html",
-          success: function (data) {
-            $body.append(data);
-          },
-          dataType: "html",
-        });
-      }
-    },
-
-    /* ---------------------------------------------------------------------- */
     /* ------------------------------- scrollToTop  ------------------------- */
     /* ---------------------------------------------------------------------- */
     TM_scroolToTop: function () {
@@ -1005,45 +888,6 @@ var THEMEMASCOT = {};
           800
         );
         return false;
-      });
-    },
-
-    /* ---------------------------------------------------------------------------- */
-    /* --------------------------- One Page Nav close on click -------------------- */
-    /* ---------------------------------------------------------------------------- */
-    TM_menuCollapseOnClick: function () {
-      $document.on("click", ".onepage-nav a", function (e) {
-        $(".showhide").trigger("click");
-        //return false;
-      });
-    },
-
-    /* ---------------------------------------------------------------------- */
-    /* ----------- Active Menu Item on Reaching Different Sections ---------- */
-    /* ---------------------------------------------------------------------- */
-    TM_activateMenuItemOnReach: function () {
-      var $onepage_nav = $(".onepage-nav");
-      var cur_pos = $window.scrollTop() + 2;
-      var nav_height = $onepage_nav.outerHeight();
-      $sections.each(function () {
-        var top = $(this).offset().top - nav_height - 80,
-          bottom = top + $(this).outerHeight();
-
-        if (cur_pos >= top && cur_pos <= bottom) {
-          $onepage_nav
-            .find("a")
-            .parent()
-            .removeClass("current")
-            .removeClass("active");
-          $sections.removeClass("current").removeClass("active");
-
-          //$(this).addClass('current').addClass('active');
-          $onepage_nav
-            .find('a[href="#' + $(this).attr("id") + '"]')
-            .parent()
-            .addClass("current")
-            .addClass("active");
-        }
       });
     },
 
@@ -1283,7 +1127,7 @@ var THEMEMASCOT = {};
               center: "title",
               right: "month,agendaWeek,agendaDay",
             },
-            defaultDate: "2018-01-12",
+            defaultDate: new Date(),
             selectable: true,
             selectHelper: true,
             select: function (start, end) {
@@ -2278,7 +2122,7 @@ var THEMEMASCOT = {};
     init: function () {
       $window.on("scroll", function () {
         THEMEMASCOT.header.TM_scroolToTop();
-        THEMEMASCOT.header.TM_activateMenuItemOnReach();
+
         THEMEMASCOT.header.TM_topnavAnimate();
       });
     },
