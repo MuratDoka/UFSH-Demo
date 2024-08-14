@@ -6,14 +6,14 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta
       name="description"
-      content="Urdhri i Farmacisteve te Shqiperise : President UFSH"
+      content="Urdhri i Farmacisteve te Shqiperise : Rreth UFSH"
     />
     <meta
       name="keywords"
       content="keyword1,keyword2,keyword3,keyword4,keyword5"
     />
     <!-- Page Title -->
-    <title>Urdhri i Farmacisteve te Shqiperise : President UFSH</title>
+    <title>Urdhri i Farmacisteve te Shqiperise : Rreth UFSH</title>
 
     <!-- Favicon and Touch Icons -->
     <link href="images/favicon.png" rel="shortcut icon" type="image/png" />
@@ -85,6 +85,66 @@
       type="text/css"
     />
   </head>
+  <style>
+    .tab-content {
+      padding-left: 25px; /* Increased padding for better separation */
+      border-left: 1px solid #ddd; /* Clear separation between tabs and content */
+      background-color: #fff; /* White background for content */
+      padding-top: 15px;
+      padding-bottom: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      border-radius: 4px; /* Rounded corners for a modern look */
+    }
+
+    /* Optional: Make the headings inside the tab content stand out more */
+    .tab-content h4 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    /* Team member card styling */
+    /* .team-member {
+      background-color: #f9f9f9;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .team-member:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transform: translateY(-5px);
+    }
+
+    .team-img {
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .team-member:hover .team-img {
+      transform: scale(1.05);
+    }
+
+    .team-member h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .team-member p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 0;
+    }
+
+    .tab-pane .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    } */
+  </style>
 
   <body>
     <div id="wrapper" class="clearfix">
@@ -96,7 +156,7 @@
           </div>
         </div>
         <div id="disable-preloader" class="btn btn-default btn-sm">
-          Çaktivizo Preloader
+          Disable Preloader
         </div>
       </div>
 
@@ -110,8 +170,9 @@
             <div class="row">
               <div class="col-md-8">
                 <div class="widget text-white">
-                  <i class="fa fa-clock-o text-white"></i> Orari i Hapjes: E
-                  Hënë - E Premte: 8:00 - 16:30
+                  <i class="fa fa-clock-o text-white" aria-hidden="true"></i>
+                  <span class="sr-only">Opening Hours Icon</span> Orari i
+                  Hapjes: E Hënë - E Premte: 8:00 - 16:30
                 </div>
               </div>
               <div class="col-md-4">
@@ -121,16 +182,28 @@
                       <a
                         href="ajax-load/login-form.html"
                         class="text-white ajaxload-popup"
-                        ><i class="fa fa-user-o mr-5 text-white"></i> Login /
+                        aria-label="Login"
+                      >
+                        <i
+                          class="fa fa-user-o mr-5 text-white"
+                          aria-hidden="true"
+                        ></i>
+                        <span class="sr-only">User Icon</span> Login /
                       </a>
                     </li>
                     <li class="m-0 pl-0 pr-10">
                       <a
                         href="ajax-load/register-form.html"
                         class="text-white ajaxload-popup"
-                        ><i class="fa fa-users mr-5 text-white"></i>Portali i
-                        Farmacistëve</a
+                        aria-label="Portal Registration"
                       >
+                        <i
+                          class="fa fa-users mr-5 text-white"
+                          aria-hidden="true"
+                        ></i>
+                        <span class="sr-only">Users Icon</span>Portali i
+                        Farmacistëve
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -145,9 +218,13 @@
                 <div class="widget sm-text-center">
                   <i
                     class="fa fa-envelope text-theme-colored font-32 mt-5 mr-sm-0 sm-display-block pull-left flip sm-pull-none"
+                    aria-hidden="true"
                   ></i>
-                  <a href="#" class="font-12 text-gray text-uppercase"
-                    >Na Dergoni Email Në</a
+                  <span class="sr-only">Email Icon</span>
+                  <a
+                    href="mailto:info@ufsh.org.al"
+                    class="font-12 text-gray text-uppercase"
+                    >Na Dërgoni Email Në</a
                   >
                   <h5 class="font-13 text-black m-0">
                     <a href="mailto:info@ufsh.org.al">info@ufsh.org.al</a>
@@ -156,17 +233,21 @@
               </div>
               <div class="col-xs-12 col-sm-4 col-md-6">
                 <div class="widget text-center">
-                  <a class="" href="index.html"
-                    ><img src="images/UFSH-logo-4.png" alt=""
-                  /></a>
+                  <a href="index.html">
+                    <img src="images/UFSH-logo-4.png" alt="UFSH Logo" />
+                  </a>
                 </div>
               </div>
               <div class="col-xs-12 col-sm-4 col-md-3">
                 <div class="widget sm-text-center">
                   <i
                     class="fa fa-phone-square text-theme-colored font-32 mt-5 mr-sm-0 sm-display-block pull-left flip sm-pull-none"
+                    aria-hidden="true"
                   ></i>
-                  <a href="#" class="font-12 text-gray text-uppercase"
+                  <span class="sr-only">Phone Icon</span>
+                  <a
+                    href="tel:+355 (4) 2264980"
+                    class="font-12 text-gray text-uppercase"
                     >Na Telefononi Në</a
                   >
                   <h5 class="font-13 text-black m-0">
@@ -180,61 +261,60 @@
         <div class="header-nav">
           <div class="header-nav-wrapper navbascrolltofixed">
             <div class="container">
-              <nav id="menuzord" class="menuzord green">
+              <nav
+                id="menuzord"
+                class="menuzord green"
+                aria-label="Primary Navigation"
+              >
                 <ul class="menuzord-menu">
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
                   <li class="active">
+                    <a href="index.html#home">Home</a>
+                  </li>
+                  <li>
                     <a href="#">UFSH</a>
-                    <ul class="dropdown">
-                      <li><a href="rreth-ufsh.html#wrapper">Rreth UFSH</a></li>
-                      <li><a href="#wrapper">Presidenti</a></li>
+                    <ul class="dropdown" aria-label="Submenu">
+                      <li><a href="rreth-ufsh.html">Rreth UFSH</a></li>
+                      <li><a href="presidenti.html">Presidenti</a></li>
                       <li>
-                        <a href="#">Asambleja e pergjithshme</a>
+                        <a href="page-faqs.html">Asambleja e përgjithshme</a>
                       </li>
-                      <li><a href="#">Keshilli Kombetar</a></li>
-                      <li><a href="rajonet.html">Rajonet</a></li>
-                      <li><a href="#">Antarsia</a></li>
+                      <li><a href="#">Këshilli Kombëtar</a></li>
+                      <li><a href="page-course-details.html">Rajonet</a></li>
+                      <li><a href="#">Anëtarësia</a></li>
                       <li><a href="#">Stafi</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Antarsimi</a>
-                    <ul class="dropdown">
-                      <li><a href="#">Farmacistet</a></li>
-                      <li><a href="#">Ndihmes farmaciste</a></li>
+                    <a href="#">Anëtarësimi</a>
+                    <ul class="dropdown" aria-label="Submenu">
+                      <li><a href="#">Farmacistët</a></li>
+                      <li><a href="#">Ndihmës farmacistë</a></li>
                       <li><a href="#">Praktika Profesionale</a></li>
-                      <li><a href="#">Deop Farmaceutike</a></li>
+                      <li><a href="#">Depo Farmaceutike</a></li>
                       <li><a href="#">Agjenci Farmaceutike</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Edukimi ne vazhdim</a>
-                    <ul class="dropdown">
-                      <li>
-                        <a href="#">Objektivat</a>
-                      </li>
-                      <li>
-                        <a href="#">Detyrimet Ligjore</a>
-                      </li>
+                    <a href="#">Edukimi në vazhdim</a>
+                    <ul class="dropdown" aria-label="Submenu">
+                      <li><a href="#">Objektivat</a></li>
+                      <li><a href="#">Detyrimet Ligjore</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Publikimet</a>
-                    <ul class="dropdown">
-                      <li>
-                        <a href="#">Programi i Transparences</a>
-                      </li>
+                    <a href="#">Legjislacioni</a>
+                    <ul class="dropdown" aria-label="Submenu">
+                      <li><a href="#">Programi i Transparencës</a></li>
                       <li><a href="#">Legjislacioni</a></li>
                     </ul>
                   </li>
                   <li>
                     <a href="#">Njoftimet</a>
-                    <ul class="dropdown">
-                      <li>
-                        <a href="#">Media</a>
-                      </li>
+                  </li>
+                  <li>
+                    <a href="#">Media</a>
+                    <ul class="dropdown" aria-label="Submenu">
+                      <li><a href="#">Media</a></li>
                       <li><a href="#">Foto Galeri</a></li>
                       <li><a href="#">Botime</a></li>
                     </ul>
@@ -261,11 +341,11 @@
             <div class="section-content">
               <div class="row">
                 <div class="col-md-6">
-                  <h2 class="text-white font-36">Teachers Details</h2>
+                  <h2 class="text-white font-36">KËSHILLAT RAJONALË</h2>
                   <ol class="breadcrumb text-left mt-10 white">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li class="active">Teachers</li>
+                    <li><a href="#">UFSH</a></li>
+                    <li class="active">Rajonet</li>
                   </ol>
                 </div>
               </div>
@@ -273,181 +353,196 @@
           </div>
         </section>
 
-        <!-- Section: Experts Details -->
+        <!-- Section: service-->
         <section>
           <div class="container">
-            <div class="section-content">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="thumb">
-                    <img src="images/team/team-details.jpg" alt="" />
-                  </div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="name font-24 mt-0 mb-0">Sakib Martin</h4>
-                  <h5 class="mt-5">Web Design</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Numquam vero expedita fugiat illo quasi doloremque, in unde
-                    omnis sint assumenda! Quaerat in, reprehenderit corporis
-                    voluptatum natus sequi reiciendis ullam. Quam eaque dolorum
-                    voluptates cupiditate explicabo.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Nesciunt culpa dicta quaerat qui recusandae possimus placeat
-                    quidem ipsam voluptates similique libero tempore, labore
-                    quasi delectus vero alias, consectetur blanditiis eum maxime
-                    sunt accusantium ipsa doloribus reiciendis. Ea quod
-                    reprehenderit deserunt. Veritatis omnis similique tempora
-                    delectus a consequuntur, quis. Adipisicing elit. Nesciunt
-                    culpa dicta quaerat qui recusandae possimus placeat quidem
-                    ipsam voluptates similique libero tempore, labore quasi
-                    delectus vero alias.
-                  </p>
-                  <ul
-                    class="styled-icons icon-dark icon-theme-colored2 icon-sm mt-15 mb-0"
-                  >
-                    <li>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-skype"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row mt-30">
-                <div class="col-md-4">
-                  <h4 class="line-bottom-theme-colored-2">About Me:</h4>
-                  <div class="volunteer-address">
-                    <ul>
-                      <li>
-                        <div class="bg-light media border-bottom p-15 mb-20">
-                          <div class="media-left">
-                            <i
-                              class="fa fa-map-marker text-theme-colored2 font-24 mt-5"
-                            ></i>
-                          </div>
-                          <div class="media-body">
-                            <h5 class="mt-0 mb-0">Address:</h5>
-                            <p>Village 856 Broadway New York</p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="bg-light media border-bottom p-15 mb-20">
-                          <div class="media-left">
-                            <i
-                              class="fa fa-phone text-theme-colored2 font-24 mt-5"
-                            ></i>
-                          </div>
-                          <div class="media-body">
-                            <h5 class="mt-0 mb-0">Contact:</h5>
-                            <p>
-                              <span>Phone:</span> +262 695 2601<br /><span
-                                >Email:</span
+            <div class="row">
+              <div class="col-md-12">
+                <div class="single-service">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <!-- Vertical Nav Tabs styled like the service list -->
+                      <div class="widget">
+                        <div class="services-list">
+                          <ul id="myTab" class="list list-border">
+                            <li class="active">
+                              <a href="#tab1" data-toggle="tab"
+                                >Këshilli Rajonal Berat</a
                               >
-                              you@yourdomain.com
-                            </p>
-                          </div>
+                            </li>
+                            <li>
+                              <a href="#tab2" data-toggle="tab"
+                                >Këshilli Rajonal Dibër</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#tab3" data-toggle="tab"
+                                >Këshilli Rajonal Durrës</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#tab4" data-toggle="tab"
+                                >Këshilli Rajonal Elbasan</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#tab5" data-toggle="tab"
+                                >Këshilli Rajonal Fier</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#tab6" data-toggle="tab"
+                                >Këshilli Rajonal Gjirokastër</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#tab7" data-toggle="tab"
+                                >Këshilli Rajonal Korçë</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#tab8" data-toggle="tab"
+                                >Këshilli Rajonal Kukës</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#tab9" data-toggle="tab"
+                                >Këshilli Rajonal Lezhë</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#tab10" data-toggle="tab"
+                                >Këshilli Rajonal Shkodër</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#tab11" data-toggle="tab"
+                                >Këshilli Rajonal Tiranë</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#tab12" data-toggle="tab"
+                                >Këshilli Rajonal Vlorë</a
+                              >
+                            </li>
+                          </ul>
                         </div>
-                      </li>
-                      <li>
-                        <div class="bg-light media border-bottom p-15">
-                          <div class="media-left">
-                            <i
-                              class="fa fa-download text-theme-colored2 font-24 mt-5"
-                            ></i>
-                          </div>
-                          <div class="media-body">
-                            <h5 class="mt-0 mb-0">Resume Download:</h5>
-                            <a href="#" class="text-underline"
-                              ><i class="fa fa-file-pdf-o mr-5"></i>Download
-                              PDF</a
-                            >
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <h4 class="line-bottom-theme-colored-2">Find Location:</h4>
+                      </div>
+                    </div>
 
-                  <!-- Google Map HTML Codes -->
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.470870419479!2d19.84200437654126!3d41.34211799880124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350314fd8518445%3A0x18a4994b0e864df7!2sUrdheri%20I%20Farmacistave!5e0!3m2!1sen!2s!4v1721212702731!5m2!1sen!2s"
-                    class="map-canvas autoload-map"
-                    data-mapstyle="style1"
-                  ></iframe>
-                </div>
-                <div class="col-md-4">
-                  <div class="clearfix">
-                    <h4 class="line-bottom-theme-colored-2">Quick Contact:</h4>
+                    <div class="col-md-9">
+                      <!-- Tab Content -->
+                      <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1">
+                          <h4 class="line-bottom-theme-colored-2 mb-30">
+                            Këshilli Rajonal Berat
+                          </h4>
+                          <div class="row">
+                            <div class="col-md-3 mb-30">
+                              <div class="team-member text-center">
+                                <img
+                                  src="images/team/md1.jpg"
+                                  alt="Hermon Bregu"
+                                  class="img-fullwidth team-img"
+                                />
+                                <h5 class="mt-15 mb-5">Hermon Bregu</h5>
+                                <p class="text-muted">President i KR</p>
+                              </div>
+                            </div>
+                            <div class="col-md-3 mb-30">
+                              <div class="team-member text-center">
+                                <img
+                                  src="images/team/md2.jpg"
+                                  alt="Teuta Shehu"
+                                  class="img-fullwidth team-img"
+                                />
+                                <h5 class="mt-15 mb-5">Teuta Shehu</h5>
+                                <p class="text-muted">Zv. President i KR</p>
+                              </div>
+                            </div>
+                            <div class="col-md-3 mb-30">
+                              <div class="team-member text-center">
+                                <img
+                                  src="images/team/md3.jpg"
+                                  alt="Algert Demaj"
+                                  class="img-fullwidth team-img"
+                                />
+                                <h5 class="mt-15 mb-5">Algert Demaj</h5>
+                                <p class="text-muted">Anëtarë të KR</p>
+                              </div>
+                            </div>
+                            <div class="col-md-3 mb-30">
+                              <div class="team-member text-center">
+                                <img
+                                  src="images/team/md3.jpg"
+                                  alt="Fatbardha Shtrepi"
+                                  class="img-fullwidth team-img"
+                                />
+                                <h5 class="mt-15 mb-5">Fatbardha Shtrepi</h5>
+                                <p class="text-muted">Anëtarë të KR</p>
+                              </div>
+                            </div>
+                            <div class="col-md-3 mb-30">
+                              <div class="team-member text-center">
+                                <img
+                                  src="images/team/md3.jpg"
+                                  alt="Hamza Hysenbelliu"
+                                  class="img-fullwidth team-img"
+                                />
+                                <h5 class="mt-15 mb-5">Hamza Hysenbelliu</h5>
+                                <p class="text-muted">Anëtarë të KR</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab2">
+                          <h4 class="line-bottom-theme-colored-2 mb-15">
+                            Këshilli Rajonal Dibër
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit...
+                          </p>
+                        </div>
+                        <div class="tab-pane fade" id="tab3">
+                          <h4 class="line-bottom-theme-colored-2 mb-15">
+                            Software Engineering
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit...
+                          </p>
+                        </div>
+                        <div class="tab-pane fade" id="tab4">
+                          <h4 class="line-bottom-theme-colored-2 mb-15">
+                            Development Studies
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit...
+                          </p>
+                        </div>
+                        <div class="tab-pane fade" id="tab5">
+                          <h4 class="line-bottom-theme-colored-2 mb-15">
+                            Chemical Engineering
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit...
+                          </p>
+                        </div>
+                        <div class="tab-pane fade" id="tab6">
+                          <h4 class="line-bottom-theme-colored-2 mb-15">
+                            Accounting Technologies
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <form id="contact-form" class="contact-form-transparent">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            placeholder="Enter Name"
-                            id="contact_name"
-                            name="contact_name"
-                            required=""
-                            class="form-control"
-                          />
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            placeholder="Enter Email"
-                            id="contact_email"
-                            name="contact_email"
-                            class="form-control"
-                            required=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            placeholder="Enter Subject"
-                            id="contact_subject"
-                            name="contact_subject"
-                            class="form-control"
-                            required=""
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <textarea
-                        rows="5"
-                        placeholder="Enter Message"
-                        id="contact_message"
-                        name="contact_message"
-                        required
-                        class="form-control"
-                      ></textarea>
-                    </div>
-                    <div class="form-group">
-                      <button
-                        data-loading-text="Please wait..."
-                        class="btn btn-flat btn-dark btn-theme-colored2 mt-5"
-                        type="submit"
-                      >
-                        Send your message
-                      </button>
-                    </div>
-                  </form>
                 </div>
               </div>
             </div>
@@ -581,6 +676,7 @@
           </div>
         </div>
       </footer>
+
       <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
     </div>
     <!-- end wrapper -->
